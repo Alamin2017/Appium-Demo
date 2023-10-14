@@ -1,8 +1,8 @@
-package testCases;
-import EnvSetup.BaseEnv;
-import Utility.ElementActions;
+package testcases;
+import driversetup.BaseEnv;
+import utilities.ElementActions;
 import org.testng.annotations.Test;
-import pageobject.Locator;
+import pagelocator.Locator;
 public class TestDemo extends BaseEnv {
     @Test
     public void test() throws InterruptedException {
