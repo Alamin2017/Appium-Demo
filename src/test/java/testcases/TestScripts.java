@@ -1,12 +1,12 @@
 package testcases;
 import driversetup.BaseEnv;
-import utilities.ElementAction;
+import utilities.ElementActions;
 import org.testng.annotations.Test;
-import pagelocator.Locator;
-public class TestScript extends BaseEnv {
+import pagelocator.Locators;
+public class TestScripts extends BaseEnv {
     @Test
     public void test() throws InterruptedException {
-        ElementAction.clickElement(Locator.sign_in_button_locator);
+        ElementActions.clickElement(Locators.sign_in_button_locator);
         Thread.sleep(12000);
         driver.navigate().back();
         Thread.sleep(2000);
