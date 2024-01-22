@@ -9,7 +9,6 @@ import org.testng.annotations.BeforeSuite;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
-
 public class BaseEnv {
     public static AndroidDriver driver;
     @BeforeSuite
